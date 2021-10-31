@@ -20,7 +20,7 @@ print('''
  | |XXXXXXXXXXXXX| |
  | |XX  XXXXX  XX| |		BOF.py
  | |XXXXXXXXXXXXX| |		By: Liam Wood
- | |XXXX     XXXX| |		Follow insta: @malware.255
+ | |XXXX     XXXX| |		
  | |XXXXXXXXXXXXX| |
  |_________________|
      _[_______]_
